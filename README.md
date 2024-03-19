@@ -18,10 +18,10 @@ This project is a social networking platform frontend built using JavaScript, HT
 To run this project locally, follow these steps:
 
 1. Clone the repository to your local machine:
-git clone https://github.com/username/repository-name.git
+git clone https://github.com/AKKI0511/Social-Media.git
 
 2. Open the project directory:
-cd repository-name
+cd Social-Media
 
 3. run:
 python manage.py runserver
