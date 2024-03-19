@@ -10,8 +10,9 @@ This project is a social networking platform frontend built using JavaScript, HT
   - [Installation](#installation)
   - [Usage](#usage)
     - [Features](#features)
-    - [File Structure](#file-structure)
     - [Functions Overview](#functions-overview)
+       - [index.js](#Index.js)
+       - [Views.py](#Views.py)
 
 ## Installation
 To run this project locally, follow these steps:
@@ -33,14 +34,9 @@ python manage.py runserver
 - **Profile Management:** View your profile, follow/unfollow other users.
 - **Pagination:** Posts are paginated for easier navigation.
 
-### File Structure
-- **index.html:** Main HTML file for the project.
-- **styles.css:** CSS file for styling the application.
-- **index.js:** JavaScript file containing the frontend logic.
-
 ### Functions Overview
 
-## Views.py Function Descriptions
+## Index.js
 
 ### `document.addEventListener('DOMContentLoaded', () => { ... })`
 - Description: Listens for the DOMContentLoaded event and initializes the application.
@@ -114,7 +110,7 @@ python manage.py runserver
 - Description: Creates an Edit button for a post and handles post editing functionality.
 - Purpose: Enables users to edit their posts directly from the UI.
 
-## Views.py Function Descriptions
+## Views.py
 
 ### `index(request)`
 - Description: Renders the index.html template with a new form instance.
