@@ -1,0 +1,36 @@
+#new-post{
+    display: none;
+}
+
+textarea{
+    background-color: darkslategrey;
+    color: aliceblue;
+}
+
+body{
+    padding-left: 5%;
+}
+
+.nav-link:hover{
+    cursor: pointer;
+}
+
+.heart-button {
+    color: #ccc;
+    box-shadow: none; /* Remove the shadow effect */
+  }
+
+.heart-button.active {
+    color: red;
+    box-shadow: none;
+}
+
+.heart-button-liked {
+    color: red;
+    box-shadow: none;
+}
+
+.heart-button-liked.active {
+    color: #ccc;
+    box-shadow: none; /* Remove the shadow effect */
+}

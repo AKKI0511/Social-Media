@@ -1,0 +1,29 @@
+{% extends "network/layout.html" %}
+{% load static %}
+
+{% block body %}
+    <!--Section to show the profile of the user-->
+    <div id="Profile" style="display: none;">
+    </div>
+
+    <!-- Section to show all posts (most recent post on the top) -->
+    <div id="all-post" style="display: block;">
+        <p>Log In to view Posts!!</p>
+    </div>
+
+    <!-- Section for creating New Post -->
+    <div id="new-post" style="display: none;">
+        <h3 class="text-light">New Post</h3>
+        <form id="new-post-form" method="post" action="{% url 'post' %}">
+            {% csrf_token %}
+            {{ form }}
+            <button class="btn btn-primary" type="submit">Post</button>
+        </form>
+    </div>
+
+    <div id="Following" style="display: none;"></div>
+{% endblock %}
+
+{% block script %}
+    <script src="{% static 'network/index.js' %}"></script>
+{% endblock %}
