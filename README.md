@@ -27,7 +27,7 @@ cd Social-Media
 python manage.py runserver
 
 ## Usage
-## Features
+### Features
 - **New Post:** Users can create new text-based posts by filling in content in a text area and submitting the post.
 - **All Posts:** View all posts from all users with the most recent posts displayed first, including username, post content, timestamp, and like count.
 - **Profile Page:** Clicking on a username displays the user's profile page with follower/following counts and all posts in reverse chronological order. Users can also follow/unfollow other users.
