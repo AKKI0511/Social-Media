@@ -27,12 +27,14 @@ cd Social-Media
 python manage.py runserver
 
 ## Usage
-### Features
-- **User Authentication:** Register, log in, and log out functionalities.
-- **Post Creation:** Create new posts and edit your own posts.
-- **Like Posts:** Like/Unlike posts.
-- **Profile Management:** View your profile, follow/unfollow other users.
-- **Pagination:** Posts are paginated for easier navigation.
+## Features
+- **New Post:** Users can create new text-based posts by filling in content in a text area and submitting the post.
+- **All Posts:** View all posts from all users with the most recent posts displayed first, including username, post content, timestamp, and like count.
+- **Profile Page:** Clicking on a username displays the user's profile page with follower/following counts and all posts in reverse chronological order. Users can also follow/unfollow other users.
+- **Following Page:** View posts from users that the current user follows, with pagination for navigation.
+- **Pagination:** Display posts in sets of 10 per page with navigation buttons (Next/Previous) for easy browsing.
+- **Edit Post:** Users can edit their own posts, replacing the content with a text area for editing and saving changes without page reload.
+- **Like/Unlike:** Allow users to like/unlike posts with asynchronous updating of like counts using JavaScript fetch calls.
 
 ### Functions Overview
 
