@@ -11,8 +11,8 @@ This project is a social networking platform frontend built using JavaScript, HT
   - [Usage](#usage)
     - [Features](#features)
     - [Functions Overview](#functions-overview)
-       - [index.js](#Index.js)
-       - [Views.py](#Views.py)
+       - [index.js](#Indexjs)
+       - [Views.py](#Viewspy)
 
 ## Installation
 To run this project locally, follow these steps:
